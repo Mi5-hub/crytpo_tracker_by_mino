@@ -1,0 +1,148 @@
+#cryptoTable tbody{
+    cursor: pointer;
+    border-top: none
+
+}
+#cryptoTable{
+    border-top: none !important
+}
+
+
+.asset{
+    text-align: center;
+}
+.head-color{
+    background-color: #ffdd00 !important;
+    color: black;
+}
+
+
+
+.column-color {
+    /* background-color: #bcc6cf;
+    color: #111416; */
+    text-align: left;
+}
+
+tr.odd td.sorting_1 {
+    background-color: transparent !important;
+}
+
+tr.even td.sorting_1 {
+    background-color: transparent !important;
+}
+
+.t-head {
+    background-color: #284058;
+    color: #cccccc;
+}
+
+tr.selected,
+table.dataTable tbody>tr>.selected {
+    background-color: #284058 !important;
+}
+
+th.dt-center {
+    text-align: center;
+}
+
+
+#cryptoTable tbody tr:nth-child(odd){
+    background-color: #222b37;
+}
+
+#cryptoTable tbody tr:nth-child(even){
+    background-color: #273240;
+}
+
+#cryptoTable thead tr th, #cryptoTable tbody tr td{
+    padding: 5px 10px;
+}
+
+#cryptoTable tbody tr td {
+    border: 1px solid #353d45;
+    color: #cccccc;
+}
+#cryptoTable{
+    border-collapse: collapse !important;
+    border: 1px solid #353d45;
+
+}
+
+
+
+
+
+
+.badge {
+    padding-top: inherit;
+    background: #337ab7;
+    margin-left: 2px;
+}
+.badge-diff {
+    padding-top: inherit;
+    background: #b73384;
+    margin-left: 2px;
+    border-radius: 8px;
+}
+.badge-total {
+    padding-top: inherit;
+    background: #26a57f;
+    margin-left: 2px;
+    border-radius: 8px;
+}
+
+#cryptoTable_length>label:nth-child(1),
+#cryptoTable_filter>label:nth-child(1) {
+    color: #cccccc
+}
+
+
+
+
+#crypto_container {
+    color: #cccccc;
+}
+
+
+
+body {
+    background: #222b37;
+    color: #cccccc;
+}
+
+.input_ {
+    margin-top: 30px;
+}
+
+
+
+
+
+.nav-tabs {
+    border-bottom: 1px solid #2682c6;
+}
+
+li.active>a:nth-child(1) {
+    border: #2682c6 2px solid;
+    border-bottom: 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#cryptoTable {
+    color: #0a111fc7;
+    
+}
+
+.first-row {
+    width: 35px !important;
+}
+
+
+
+
+
+
+
+
