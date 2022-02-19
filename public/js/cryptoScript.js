@@ -3,7 +3,8 @@ jQuery(function () {
   var euroValue = 0;
   var arrayTotal = []
 
-
+  // setTimeout(getDataUser(), 10000)
+  // var myInterval = setInterval(getDataUser(), 5000) // reload data from coinapi.io every 5s
   getDataUser() // get all users and their assets 
 
   function getDataUser() {
@@ -61,7 +62,7 @@ jQuery(function () {
         },
         {
           targets: 1,
-          className:'asset',
+          className: 'asset',
           render: function (data, type, full, meta) {
             var Badges = "";
 
